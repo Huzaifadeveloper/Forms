@@ -1,0 +1,45 @@
+h1{
+    text-align: center;
+    text-decoration-color: rgba(0, 255, 229, 0.515);
+    padding: 23px;
+}
+
+#clear{  
+    width: 270px;  
+    
+    border: 3px solid gray;  
+        border-radius: 3px;  
+        padding: 20px;  
+        background-color: rgba(0, 128, 0, 0.787);  
+    }  
+
+.StyleofCalc{
+    width: 300px;
+    height: 580px;
+    border: solid 3px rgba(226, 61, 43, 0.934);
+    margin-left: 37%;
+    padding: 10px;
+    
+}
+
+input  
+{  
+width: 25px;  
+background-color: rgba(128, 79, 0, 0.154);  
+color: rgba(0, 0, 255, 0.454);  
+border: 3px solid rgb(128, 128, 128);  
+    border-radius: 5px;  
+    padding: 26px;  
+    margin: 5px;  
+    font-size: 25px; 
+
+} 
+
+#calc{
+    width: 280px;
+    border: 5px solid black;  
+    border-radius: 3px;  
+    padding: 20px;  
+    margin-left: 2.5%;
+
+}
