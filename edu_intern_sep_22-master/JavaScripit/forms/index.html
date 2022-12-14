@@ -1,0 +1,108 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link href="forms.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <div class="container">
+         <div class="panel panel-primary">
+            <div class="panel-heading">
+                <h3>Employee Form </h3>
+            </div>
+            <div class="panel-body">
+                <div class="form-group has-success has-error">
+                    <label class="control-label" for="firstname">FirstName</label>
+                    <input  class="form-control" name="fname" id="firstname" placeholder="Firstname">
+                </div>
+                <div class="form-group has-success">
+                    <label class="control-label" for="lastname">LastName</label>
+                    <input class="form-control" name="fname" id="lastname" placeholder="Lastname">
+
+                </div>
+                <div class="row">
+
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label class="control-label">Email</label>
+                            <input class="form-control" name="mail" placeholder="a@a.com">
+                         </div>
+                    
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label class="control-label">Password</label>
+                                <input class="form-control" name="pwd" id="pwd" type="password">
+
+                            </div>
+                        </div>
+                        </div>
+
+                        <div class="row">
+
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <label class="control-label">Country</label>
+
+                                    <select class="form-control" name="loc" id="country">
+                                        <option>India</option>
+                                        <option>Sri Lanka</option>
+                                        <option>Pakistan</option>
+                                    </select>
+                                 </div>
+                            </div>
+                                <div class="col-md-4">
+                                    <div class="form-group">
+                                        <label class="control-label">State</label>
+                                        <select class="form-control" name="loc" id="state">
+                                            <option>AndhraPradesh</option>
+                                        <option>Karnataka</option>
+                                        <option>Tamilnadu</option>
+                                        </select>
+                                        <!--<input class="form-control" name="state" id="state" type="state">-->
+                                    </div>
+                                </div>
+                                    <div class="col-md-4">
+                                        <div class="form-group">
+                                            <label class="control-label">City</label>
+                                            <input class="form-control" name="pwd" id="pwd" type="city">
+                                        </div>
+                                    </div>
+                                </div>
+
+                            <div class="Radio">
+                                <label>
+                                    <input type="radio" name="gender" value="female"/> 
+                                    Female
+                                </label>
+                                 
+                                <label>
+                            <input type="radio" name="gender" value="male"/>Male
+                                </label>
+                            </div>
+
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox" name="language" value="Javascript"/>
+                                    JavaScript
+                                </label>
+                                <label>
+                                    <input type="checkbox" name="language" value="Javascript"/>
+                                    React
+                                </label>
+                                <label>
+                                    <input type="checkbox" name="language" value="Javascript"/>
+                                    Node.JS
+                                </label>
+                            </div>
+
+                            <button class="btn btn-success">Submit</button>
+
+                        
+                </div>
+            </div>
+         </div>
+        </div>
+    </body>
+</html>
